@@ -36,4 +36,4 @@ Aside from the JSON data, the exact same data is exposed via CSV in the `funko_p
 
 ## Data Scraping
 
-I will be open sourcing the data scraper, but there is currently no ETA on when that might happen. For now, if you're missing any information, please contact kennymkchan on Github.
+I will be open sourcing the data scraper, but there is currently no ETA on when that might happen. For now, if you're missing any information, please contact @kennymkchan on Github.
