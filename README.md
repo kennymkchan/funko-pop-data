@@ -25,6 +25,7 @@ Currently, the data for each Funko Pop is captured with the following data:
   handle: ### A unique handle generated based on the title of the pop and using a `handleize` method.
   image: ### A URL containing an image of what the Funko Pop looks like
   title: ### The name of the Funko Pop
+  series: ### Array of series the Funko Pop is part of. I.E ["Pop! Animation","Pop! Vinyl","Emerald City Comic Con 2017"]
 }
 ```
 
