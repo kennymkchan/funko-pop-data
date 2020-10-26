@@ -12,7 +12,7 @@ All the data is open-source and available for any one to use and build on top of
 
 Currently, the data for each Funko Pop is captured with the following data:
 
-```json
+```
 {
   handle: ### A unique handle generated based on the title of the pop and using a `handleize` method.
   image: ### A URL containing an image of what the Funko Pop looks like
