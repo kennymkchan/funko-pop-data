@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-October 26, 2020 — 8:00AM EST
+October 27, 2020 — 12:30AM EST
 
 ## Background
 
