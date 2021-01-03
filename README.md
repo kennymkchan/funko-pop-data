@@ -37,4 +37,15 @@ Aside from the JSON data, the exact same data is exposed via CSV in the `funko_p
 
 ## Data Scraping
 
-I will be open sourcing the data scraper, but there is currently no ETA on when that might happen. For now, if you're missing any information, please contact @kennymkchan on Github.
+I have added the data scraping script that I have been using. It's not perfect but does the job. Some of the parameters such as the `sleep` can probably be tweaked depending on the device you are using. If you wish to run the script, the following will help you get started:
+
+```
+npm install
+node index.js
+```
+
+After running the script, the funko_pop.json file will be created. If you wish to export that to a CSV format, you can run:
+
+```
+node json-converter.js
+```
