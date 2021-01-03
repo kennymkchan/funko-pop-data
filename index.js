@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer-extra')
 const fs = require('fs');
-const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker')
+const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker');
 
 let masterJsonArray = [];
 let fileName = 'funko_pop';
