@@ -33,15 +33,23 @@ let fileName = 'funko_pop';
   response = {};
 
   // Testing purposes
-  // while(pageCounter === initialPageScrape || pageCounter < 2304) {
+  while(pageCounter === initialPageScrape || pageCounter < 2395) {
 
-  while(Object.keys(response).length !== 0 || pageCounter === initialPageScrape) {
-    await page.goto(`https://www.hobbydb.com/marketplaces/poppriceguide/catalog_items?filters[in_collection]=all&filters[in_wishlist]=all&filters[on_sale]=all&order[name]=created_at&order[sort]=desc&page=${pageCounter}&q=funko%20pop&subvariants=true`);
+  // let scrapEnded = false;
 
-    await sleep(6000);
+  // while(!scrapEnded) {
+    await page.goto(`https://www.hobbydb.com/marketplaces/poppriceguide/catalog_items?filters[in_collection]=all&filters[in_wishlist]=all&filters[on_sale]=all&order[name]=created_at&order[sort]=desc&page=${pageCounter}&q=funko&subvariants=true`);
+
+    await sleep(3000);
 
     let results = await page.$eval('html', function(html) {
       let jsonArray = [];
+
+      // if (html.querySelector('.no-search-results')) {
+      //   scrapEnded = false;
+      //   break;
+      // }
+
       html.querySelectorAll('.catalog-item-card').forEach(function(element) {
         let elementName = element.querySelector('.catalog-item-name').innerHTML.trim();
         let imageName = element.querySelector('.catalog-item-info img').src;
