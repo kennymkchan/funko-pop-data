@@ -32,8 +32,10 @@ let fileName = 'funko_pop';
 
   response = {};
 
+  const lastPage = 2395;
+
   // Testing purposes
-  while(pageCounter === initialPageScrape || pageCounter < 2395) {
+  while(pageCounter === initialPageScrape || pageCounter < lastPage) {
 
   // let scrapEnded = false;
 
