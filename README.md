@@ -29,7 +29,7 @@ Currently, the data for each Funko Pop is captured with the following data:
 }
 ```
 
-If you wish to see more attributes or if they would be useful, please make an issue and I will try to add the data.
+If you wish to see more attributes or if they would be useful, please make an issue and I will try to add the data. Alternatively, feel free to open up a PR. 
 
 ### CSV Data
 
@@ -49,3 +49,7 @@ After running the script, the funko_pop.json file will be created. If you wish t
 ```
 node json-converter.js
 ```
+
+## Contributing
+
+If you have improvements, open up a PR and I'll take a look. Actively looking for people to potentially improve this scraper.
