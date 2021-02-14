@@ -1,0 +1,25 @@
+{
+  "name": "funko-pop-data",
+  "version": "1.0.0",
+  "description": "## Last Updated",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^7.1.0",
+    "puppeteer-extra": "^3.1.16",
+    "puppeteer-extra-plugin-adblocker": "^2.11.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennymkchan/funko-pop-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennymkchan/funko-pop-data/issues"
+  },
+  "homepage": "https://github.com/kennymkchan/funko-pop-data#readme"
+}
