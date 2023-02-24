@@ -1,5 +1,7 @@
 # Funko Pop Database / Funko Pop API
 
+## This Repo was originally sponsored by our friends at [https://popcollectibles.ca](https://popcollectibles.ca)
+
 ## Last Updated
 
 January 3, 2021 — 5:00PM EST
