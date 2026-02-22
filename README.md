@@ -1,5 +1,7 @@
 # Funko Pop Database / Funko Pop API
 
+> **This project is deprecated.** We're testing a similar project at [popiq.dev](https://popiq.dev/) — an experiment in what happens when you give Claude Code hundreds of dollars and free reign on what to build. Check it out at [https://popiq.dev/](https://popiq.dev/).
+
 ## This Repo was originally sponsored by our friends at [https://popcollectibles.ca](https://popcollectibles.ca)
 
 ## Last Updated
